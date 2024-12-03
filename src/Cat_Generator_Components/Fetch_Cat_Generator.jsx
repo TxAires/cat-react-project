@@ -53,7 +53,7 @@ const CatInput = () => {
                     setCatFacts(facts => [...facts, { id: i, fact: chosenFact.fact }]); //Na 1ª iteração o "...facts" não terá nenhum valor, mas depois passa a ter porque vai acumulando
                 }
             })
-        setCount(count => count+3); // isto é o contador dos ID's. Estava a ter problemas de ele nao atualizar dentro do fetch (por causa de asyncronia) entao o id no fetch vem do for e atualizo ca fora
+        setCount(count => count+3); // isto é o contador dos ID's. Estava a ter problemas de ele nao atualizar dentro do fetch (por causa de asyncronia?) entao o id no fetch vem do for e atualizo ca fora
     };
 
     const handleRemoveCatFact = (id) => {
@@ -78,7 +78,7 @@ const CatInput = () => {
                         id="personName"
                         placeholder="Insert your name"
                         value={inputName}
-                        onChange={(event) => setInputName(event.target.value)}
+                        onChange={(event) => setInputName(event.target.value)} //ele permite-me ativar o botão
                     />
                     <input
                         type="button"

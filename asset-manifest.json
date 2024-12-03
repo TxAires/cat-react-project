@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cat-react-project/static/css/main.3beab66d.css",
+    "main.js": "/cat-react-project/static/js/main.f0317ba9.js",
+    "static/media/icon_home_cat.png": "/cat-react-project/static/media/icon_home_cat.15c9264dd146c95faf48.png",
+    "index.html": "/cat-react-project/index.html",
+    "main.3beab66d.css.map": "/cat-react-project/static/css/main.3beab66d.css.map",
+    "main.f0317ba9.js.map": "/cat-react-project/static/js/main.f0317ba9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3beab66d.css",
+    "static/js/main.f0317ba9.js"
+  ]
+}
